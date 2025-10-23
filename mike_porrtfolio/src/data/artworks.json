@@ -1,0 +1,18 @@
+[
+  {
+    "title": "adam",
+    "slug": "adam",
+    "image": "/assets/img/portfolio/adam.jpg",
+    "medium": "Acrylic on canvas",
+    "year": "2024",
+    "size": "150 × 150 cm"
+  },
+  {
+    "title": "Paradise",
+    "slug": "paradise",
+    "image": "/assets/img/portfolio/paradise.jpg",
+    "medium": "Oil on linen",
+    "year": "2023",
+    "size": "120 × 100 cm"
+  }
+]
