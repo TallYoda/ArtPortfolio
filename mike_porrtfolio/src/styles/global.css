@@ -17,9 +17,12 @@
 html {
   scroll-behavior: smooth;
 }
+/* Add to global.css */
 
 body {
   margin: 0;
+  align-items: center;
+  justify-content: center;
   font-family: var(--default-font);
   color: var(--text-color);
   background-color: var(--background-color);
