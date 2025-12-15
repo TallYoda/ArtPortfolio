@@ -6,7 +6,7 @@ const Navbar: React.FC = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div className="container">
         <a className="navbar-brand" href="#hero">
-          My Portfolio
+          Mikiyas Sintayehu Gebrekidan
         </a>
         <button
           className="navbar-toggler"

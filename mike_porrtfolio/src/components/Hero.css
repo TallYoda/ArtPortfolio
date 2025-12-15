@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+
+:root {
+  --default-font: "Inconsolata", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  --heading-font: "Inconsolata", sans-serif;
+  --nav-font: "Inconsolata", sans-serif;
+  --background-color: #ffffff;
+}
 .hero-section {
   position: relative;
   width: 100%;
@@ -10,10 +19,12 @@
   overflow: hidden;
   margin: 0;
   padding-top: 62px;
+  font-family: var(--default-font);
+  opacity: 1;
 }
 
 /* Background layer */
-.hero-section ::before {
+.hero-section::before {
   width: 100%;
   height: 100vh;
   content: "";
@@ -25,13 +36,90 @@
   background: url("/img/hero-bg.jpg") center center / cover no-repeat;
   filter: blur(3px) brightness(0.6);
   z-index: -1;
+  transition: filter 0.4s ease;
+}
+
+/* Hover effect - remove blur and show clear background */
+.hero-section:hover::before {
+  filter: blur(0) brightness(0.8);
 }
 
 /* Keep text crisp and centered */
 .hero-content {
   position: relative;
   z-index: 1;
-  backdrop-filter: blur(2px);
+  /*backdrop-filter: blur(2px);*/
   padding: 2rem;
-  max-width: 800px;
+  max-width: 1100px;
+}
+.hero-content h1 {
+  font-family: var(--heading-font);
+  font-weight: 700; /* Bold */
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.hero-content {
+  position: relative;
+  z-index: 2;
+  padding: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  color: #ffffff !important;
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+/* Full-section frosted overlay behind the content (subtle, weak blur) */
+.hero-section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  transition: opacity 0.35s ease, backdrop-filter 0.35s ease, transform 0.35s ease;
+  pointer-events: none;
+}
+
+/* When the page is scrolled, hide the overlay and content */
+.hero-section.scrolled::after {
+  opacity: 0;
+  transform: translateY(-6px);
+}
+
+.hero-section.scrolled .hero-content {
+  opacity: 0;
+  transform: translateY(-12px);
+  pointer-events: none;
+}
+
+/* Quote styling */
+.hero-quote {
+  max-width: 1100px;
+  margin: 2rem auto 0 auto;
+  font-family: "Inconsolata", monospace;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #ffffff !important;
+  font-style: italic;
+  opacity: 1;
+  display: block;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  position: relative;
+  z-index: 1;
+  transition: opacity 0.4s ease;
+}
+
+/* Keep quote visible on hover (previously hidden) */
+.hero-section:hover .hero-quote {
+  opacity: 1;
+}
+
+.hero-quote-author {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 600;
+  font-style: normal;
+  color: #ffffff;
+  opacity: 0.9;
 }
