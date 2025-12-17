@@ -10,11 +10,14 @@ export interface Artwork {
   medium: string;
   year: string;
   size: string;
-  forSale?: boolean;
+  forSale: boolean;
 }
+
+type Filter = "all" | "forSale";
 
 const PortfolioGrid: React.FC = () => {
   const [artworks, setArtworks] = useState<Artwork[]>([]);
+  const [filter, setFilter] = useState<Filter>("all");
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   useEffect(() => {
@@ -28,6 +31,7 @@ const PortfolioGrid: React.FC = () => {
   console.log(`PortfolioGrid rendered with activeIndex: ${activeIndex}`);
 
   const openLightbox = (index: number) => {
+    if (index < 0) return;
     console.log(`Opening lightbox for index: ${index}`); // Debugging log
     setActiveIndex(index);
   };
@@ -60,14 +64,36 @@ const PortfolioGrid: React.FC = () => {
       <div className="container">
         <h2 className="text-center mb-5 fw-bold">Portfolio</h2>
 
+        {/* Filter buttons */}
+        <div className="d-flex justify-content-center mb-4 gap-3">
+          <button
+            className={`btn ${filter === "all" ? "btn-dark" : "btn-outline-dark"}`}
+            onClick={() => setFilter("all")}
+          >
+            All
+          </button>
+
+          <button
+            className={`btn ${filter === "forSale" ? "btn-dark" : "btn-outline-dark"}`}
+            onClick={() => setFilter("forSale")}
+          >
+            Available for Sale
+          </button>
+        </div>
+
         <div className="row">
-          {artworks.map((artwork, index) => (
-            <PortfolioCard
-              key={artwork.slug}
-              artwork={artwork}
-              onOpen={() => openLightbox(index)}
-            />
-          ))}
+          {(
+            filter === "all" ? artworks : artworks.filter((a) => a.forSale)
+          ).map((artwork) => {
+            const originalIndex = artworks.findIndex((a) => a.slug === artwork.slug);
+            return (
+              <PortfolioCard
+                key={artwork.slug}
+                artwork={artwork}
+                onOpen={() => openLightbox(originalIndex)}
+              />
+            );
+          })}
         </div>
       </div>
 

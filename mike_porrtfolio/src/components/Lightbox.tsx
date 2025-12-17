@@ -1,14 +1,7 @@
 // src/components/Lightbox.tsx
 import React, { useEffect } from "react";
 import "./lightbox.css";
-
-interface Artwork {
-  title: string;
-  image: string;
-  medium: string;
-  year: string;
-  size: string;
-}
+import type { Artwork } from "./PortfolioGrid";
 
 interface Props {
   artworks: Artwork[];
@@ -23,7 +16,7 @@ const Lightbox: React.FC<Props> = ({
   currentIndex,
   onClose,
   onNext,
-  onPrev
+  onPrev,
 }) => {
   const artwork = artworks[currentIndex];
 
