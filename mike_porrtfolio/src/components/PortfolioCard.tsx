@@ -2,7 +2,6 @@ import React from "react";
 
 interface Artwork {
   title: string;
-  slug: string;
   image: string;
   medium: string;
   year: string;
