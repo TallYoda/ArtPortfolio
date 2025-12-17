@@ -11,8 +11,152 @@
     "title": "Paradise",
     "slug": "paradise",
     "image": "/assets/img/portfolio/paradise.jpg",
-    "medium": "Oil on linen",
-    "year": "2023",
+    "medium": "Acrylic on canvas",
+    "year": "2024",
     "size": "120 × 100 cm"
+  },
+  {
+    "title": "Selfie 02",
+    "slug": "selfie-02",
+    "image": "/assets/img/portfolio/Selfie02.jpg",
+    "medium": "Acrylic on canvas",
+    "year": "2024",
+    "size": "150 × 150 cm"
+  },
+  {
+    "title": "Zero Sarcasm",
+    "slug": "zero-sarcasm",
+    "image": "/assets/img/portfolio/sarcasm.jpg",
+    "medium": "Acrylic on canvas",
+    "year": "2024",
+    "size": "150 × 150 cm"
+  },
+  {
+    "title": "Selfie 04",
+    "slug": "selfie-04",
+    "image": "/assets/img/portfolio/rena.jpg",
+    "medium": "Acrylic on canvas",
+    "year": "2024",
+    "size": "70 × 90 cm"
+  },
+  {
+    "title": "My Refuge",
+    "slug": "my-refuge",
+    "image": "/assets/img/portfolio/refuge.jpg",
+    "medium": "Acrylic on canvas",
+    "year": "2024",
+    "size": "140 × 140 cm"
+  },
+  {
+    "title": "Fruit of Wisdom",
+    "slug": "fruit-of-wisdom",
+    "image": "/assets/img/portfolio/fruity.jpg",
+    "medium": "Acrylic on canvas",
+    "year": "2024",
+    "size": "180 × 165 cm"
+  },
+  {
+    "title": "Sadness and Sorrow",
+    "slug": "sadness-and-sorrow",
+    "image": "/assets/img/portfolio/desire.jpg",
+    "medium": "Acrylic on canvas",
+    "year": "2024",
+    "size": "180 × 165 cm"
+  },
+  {
+    "title": "Empty Hands",
+    "slug": "empty-hands",
+    "image": "/assets/img/portfolio/swoosh.jpg",
+    "medium": "Acrylic on canvas",
+    "year": "2024",
+    "size": "180 × 165 cm"
+  },
+  {
+    "title": "Tree of Wisdom",
+    "slug": "tree-of-wisdom",
+    "image": "/assets/img/portfolio/paradise.jpg",
+    "medium": "Acrylic on canvas",
+    "year": "2024",
+    "size": "180 × 165 cm"
+  },
+  {
+    "title": "Swallowed Pride",
+    "slug": "swallowed-pride",
+    "image": "/assets/img/portfolio/gay.jpg",
+    "medium": "Acrylic on canvas",
+    "year": "2024",
+    "size": "70 × 90 cm"
+  },
+  {
+    "title": "Floating Souls",
+    "slug": "floating-souls",
+    "image": "/assets/img/portfolio/floating.jpg",
+    "medium": "Acrylic on canvas",
+    "year": "2024",
+    "size": "180 × 165 cm"
+  },
+  {
+    "title": "Modern Adam",
+    "slug": "modern-adam",
+    "image": "/assets/img/portfolio/adam.jpg",
+    "medium": "Acrylic on canvas",
+    "year": "2024",
+    "size": "140 × 180 cm"
+  },
+  {
+    "title": "The Ashtray",
+    "slug": "the-ashtray",
+    "image": "/assets/img/portfolio/ash.jpg",
+    "medium": "Acrylic on canvas",
+    "year": "2024",
+    "size": "25 × 25 cm"
+  },
+  {
+    "title": "The Heart Eater",
+    "slug": "the-heart-eater",
+    "image": "/assets/img/portfolio/heart.jpg",
+    "medium": "Acrylic on canvas",
+    "year": "2024",
+    "size": "70 × 90 cm"
+  },
+  {
+    "title": "Solitude Socks",
+    "slug": "solitude-socks",
+    "image": "/assets/img/portfolio/socks.jpg",
+    "medium": "Acrylic on canvas",
+    "year": "2024",
+    "size": "25 × 25 cm"
+  },
+  {
+    "title": "Solitude Shoes",
+    "slug": "solitude-shoes",
+    "image": "/assets/img/portfolio/shoes.jpg",
+    "medium": "Acrylic on canvas",
+    "year": "2024",
+    "size": "70 × 90 cm"
+  },
+  {
+    "title": "Untitled",
+    "slug": "untitled-1",
+    "image": "/assets/img/portfolio/u1.jpg",
+    "medium": "Acrylic on canvas",
+    "year": "2024",
+    "size": "25 × 25 cm"
+  },
+  {
+    "title": "Untitled",
+    "slug": "untitled-2",
+    "image": "/assets/img/portfolio/u2.jpg",
+    "medium": "Acrylic on canvas",
+    "year": "2024",
+    "size": "25 × 25 cm"
+  },
+  {
+    "title": "Untitled",
+    "slug": "untitled-3",
+    "image": "/assets/img/portfolio/u3.jpg",
+    "medium": "Acrylic on canvas",
+    "year": "2024",
+    "size": "25 × 25 cm"
   }
 ]

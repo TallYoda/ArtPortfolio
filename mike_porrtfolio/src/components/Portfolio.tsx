@@ -25,7 +25,11 @@ const Portfolio: React.FC = () => {
         <h2 className="text-center mb-5 fw-bold">Portfolio</h2>
         <div className="row">
           {artworks.map((artwork) => (
-            <PortfolioCard key={artwork.slug} artwork={artwork} />
+            <PortfolioCard
+              key={artwork.slug}
+              artwork={artwork}
+              onOpen={() => console.log(`Opening artwork: ${artwork.slug}`)} // Added onOpen handler
+            />
           ))}
         </div>
       </div>

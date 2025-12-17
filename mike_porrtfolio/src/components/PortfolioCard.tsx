@@ -1,33 +1,32 @@
-import React from "react";
-
 interface Artwork {
   title: string;
+  slug: string; // Added slug field to match Portfolio.tsx
   image: string;
   medium: string;
   year: string;
   size: string;
 }
 
-const PortfolioCard: React.FC<{ artwork: Artwork }> = ({ artwork }) => {
+const PortfolioCard: React.FC<{
+  artwork: Artwork;
+  onOpen: () => void;
+}> = ({ artwork, onOpen }) => {
   return (
-    <div className="col-lg-4 col-md-6 portfolio-item">
+    <div className="col-lg-4 col-md-6">
       <div className="card border-0 shadow-sm mb-4">
         <img
           src={artwork.image}
           alt={artwork.title}
           className="card-img-top"
-          style={{ objectFit: "cover", height: "300px" }}
+          style={{ height: "300px", objectFit: "cover", cursor: "pointer" }}
+          onClick={onOpen}
         />
+
         <div className="card-body text-center">
-          <h5 className="card-title">{artwork.title}</h5>
-          <p className="card-text small text-muted">
-            {artwork.medium} <br />
-            {artwork.size} <br />
-            {artwork.year}
-          </p>
-          <a href={`/art/${artwork.slug}`} className="btn btn-outline-dark btn-sm">
-            View Details
-          </a>
+          <h5>{artwork.title}</h5>
+          <button className="btn btn-outline-dark btn-sm" onClick={onOpen}>
+            Get a Closer Look
+          </button>
         </div>
       </div>
     </div>
