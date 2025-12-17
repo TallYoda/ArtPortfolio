@@ -1,30 +1,40 @@
-interface Artwork {
-  title: string;
-  slug: string; // Added slug field to match Portfolio.tsx
-  image: string;
-  medium: string;
-  year: string;
-  size: string;
-}
+import React from "react";
+import type { Artwork } from "./PortfolioGrid";
 
-const PortfolioCard: React.FC<{
+interface Props {
   artwork: Artwork;
   onOpen: () => void;
-}> = ({ artwork, onOpen }) => {
+}
+
+const PortfolioCard: React.FC<Props> = ({ artwork, onOpen }) => {
   return (
-    <div className="col-lg-4 col-md-6">
+    <div className="col-lg-4 col-md-6 portfolio-item">
       <div className="card border-0 shadow-sm mb-4">
         <img
           src={artwork.image}
           alt={artwork.title}
           className="card-img-top"
-          style={{ height: "300px", objectFit: "cover", cursor: "pointer" }}
-          onClick={onOpen}
+          style={{ objectFit: "cover", height: "300px", cursor: "pointer" }}
+          onClick={() => {
+            console.log(`PortfolioCard clicked: ${artwork.title}`);
+            onOpen();
+          }}
         />
 
         <div className="card-body text-center">
-          <h5>{artwork.title}</h5>
-          <button className="btn btn-outline-dark btn-sm" onClick={onOpen}>
+          <h5 className="card-title">{artwork.title}</h5>
+          <p className="card-text small text-muted">
+            {artwork.medium}
+            <br />
+            {artwork.size}
+            <br />
+            {artwork.year}
+          </p>
+
+          <button
+            className="btn btn-outline-dark btn-sm"
+            onClick={onOpen}
+          >
             Get a Closer Look
           </button>
         </div>

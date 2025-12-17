@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Portfolio from "./components/Portfolio";
+import PortfolioGrid from "./components/PortfolioGrid";
 import About from "./components/about";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <Portfolio />
+      <PortfolioGrid />
       <About />
     </>
   );

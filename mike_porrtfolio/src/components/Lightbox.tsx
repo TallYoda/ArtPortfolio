@@ -28,14 +28,17 @@ const Lightbox: React.FC<Props> = ({
   const artwork = artworks[currentIndex];
 
   useEffect(() => {
+    console.log(`Lightbox opened for index: ${currentIndex}`);
+
     const handleKey = (e: KeyboardEvent) => {
       if (e.key === "Escape") onClose();
       if (e.key === "ArrowRight") onNext();
       if (e.key === "ArrowLeft") onPrev();
     };
+
     window.addEventListener("keydown", handleKey);
     return () => window.removeEventListener("keydown", handleKey);
-  }, [onClose, onNext, onPrev]);
+  }, [currentIndex, onClose, onNext, onPrev]);
 
   return (
     <div className="lightbox-backdrop" onClick={onClose}>

@@ -5,7 +5,8 @@
     "image": "/assets/img/portfolio/adam.jpg",
     "medium": "Acrylic on canvas",
     "year": "2024",
-    "size": "150 × 150 cm"
+    "size": "150 × 150 cm",
+    "forSale": false
   },
   {
     "title": "Paradise",
@@ -13,7 +14,8 @@
     "image": "/assets/img/portfolio/paradise.jpg",
     "medium": "Acrylic on canvas",
     "year": "2024",
-    "size": "120 × 100 cm"
+    "size": "120 × 100 cm",
+    "forSale": false
   },
   {
     "title": "Selfie 02",
@@ -21,7 +23,8 @@
     "image": "/assets/img/portfolio/Selfie02.jpg",
     "medium": "Acrylic on canvas",
     "year": "2024",
-    "size": "150 × 150 cm"
+    "size": "150 × 150 cm",
+    "forSale": false
   },
   {
     "title": "Zero Sarcasm",
@@ -29,7 +32,8 @@
     "image": "/assets/img/portfolio/sarcasm.jpg",
     "medium": "Acrylic on canvas",
     "year": "2024",
-    "size": "150 × 150 cm"
+    "size": "150 × 150 cm",
+    "forSale": false
   },
   {
     "title": "Selfie 04",
@@ -37,7 +41,8 @@
     "image": "/assets/img/portfolio/rena.jpg",
     "medium": "Acrylic on canvas",
     "year": "2024",
-    "size": "70 × 90 cm"
+    "size": "70 × 90 cm",
+    "forSale": false
   },
   {
     "title": "My Refuge",
@@ -45,7 +50,8 @@
     "image": "/assets/img/portfolio/refuge.jpg",
     "medium": "Acrylic on canvas",
     "year": "2024",
-    "size": "140 × 140 cm"
+    "size": "140 × 140 cm",
+    "forSale": false
   },
   {
     "title": "Fruit of Wisdom",
@@ -53,7 +59,8 @@
     "image": "/assets/img/portfolio/fruity.jpg",
     "medium": "Acrylic on canvas",
     "year": "2024",
-    "size": "180 × 165 cm"
+    "size": "180 × 165 cm",
+    "forSale": false
   },
   {
     "title": "Sadness and Sorrow",
@@ -61,7 +68,8 @@
     "image": "/assets/img/portfolio/desire.jpg",
     "medium": "Acrylic on canvas",
     "year": "2024",
-    "size": "180 × 165 cm"
+    "size": "180 × 165 cm",
+    "forSale": false
   },
   {
     "title": "Empty Hands",
@@ -69,7 +77,8 @@
     "image": "/assets/img/portfolio/swoosh.jpg",
     "medium": "Acrylic on canvas",
     "year": "2024",
-    "size": "180 × 165 cm"
+    "size": "180 × 165 cm",
+    "forSale": false
   },
   {
     "title": "Tree of Wisdom",
@@ -77,7 +86,8 @@
     "image": "/assets/img/portfolio/paradise.jpg",
     "medium": "Acrylic on canvas",
     "year": "2024",
-    "size": "180 × 165 cm"
+    "size": "180 × 165 cm",
+    "forSale": false
   },
   {
     "title": "Swallowed Pride",
@@ -85,7 +95,8 @@
     "image": "/assets/img/portfolio/gay.jpg",
     "medium": "Acrylic on canvas",
     "year": "2024",
-    "size": "70 × 90 cm"
+    "size": "70 × 90 cm",
+    "forSale": false
   },
   {
     "title": "Floating Souls",
@@ -93,7 +104,8 @@
     "image": "/assets/img/portfolio/floating.jpg",
     "medium": "Acrylic on canvas",
     "year": "2024",
-    "size": "180 × 165 cm"
+    "size": "180 × 165 cm",
+    "forSale": false
   },
   {
     "title": "Modern Adam",
@@ -101,7 +113,8 @@
     "image": "/assets/img/portfolio/adam.jpg",
     "medium": "Acrylic on canvas",
     "year": "2024",
-    "size": "140 × 180 cm"
+    "size": "140 × 180 cm",
+    "forSale": false
   },
   {
     "title": "The Ashtray",
@@ -109,7 +122,8 @@
     "image": "/assets/img/portfolio/ash.jpg",
     "medium": "Acrylic on canvas",
     "year": "2024",
-    "size": "25 × 25 cm"
+    "size": "25 × 25 cm",
+    "forSale": false
   },
   {
     "title": "The Heart Eater",
@@ -117,7 +131,8 @@
     "image": "/assets/img/portfolio/heart.jpg",
     "medium": "Acrylic on canvas",
     "year": "2024",
-    "size": "70 × 90 cm"
+    "size": "70 × 90 cm",
+    "forSale": false
   },
   {
     "title": "Solitude Socks",
@@ -125,7 +140,8 @@
     "image": "/assets/img/portfolio/socks.jpg",
     "medium": "Acrylic on canvas",
     "year": "2024",
-    "size": "25 × 25 cm"
+    "size": "25 × 25 cm",
+    "forSale": false
   },
   {
     "title": "Solitude Shoes",
@@ -133,7 +149,8 @@
     "image": "/assets/img/portfolio/shoes.jpg",
     "medium": "Acrylic on canvas",
     "year": "2024",
-    "size": "70 × 90 cm"
+    "size": "70 × 90 cm",
+    "forSale": false
   },
   {
     "title": "Untitled",
@@ -141,7 +158,8 @@
     "image": "/assets/img/portfolio/u1.jpg",
     "medium": "Acrylic on canvas",
     "year": "2024",
-    "size": "25 × 25 cm"
+    "size": "25 × 25 cm",
+    "forSale": false
   },
   {
     "title": "Untitled",
@@ -149,7 +167,8 @@
     "image": "/assets/img/portfolio/u2.jpg",
     "medium": "Acrylic on canvas",
     "year": "2024",
-    "size": "25 × 25 cm"
+    "size": "25 × 25 cm",
+    "forSale": false
   },
   {
     "title": "Untitled",
@@ -157,6 +176,7 @@
     "image": "/assets/img/portfolio/u3.jpg",
     "medium": "Acrylic on canvas",
     "year": "2024",
-    "size": "25 × 25 cm"
+    "size": "25 × 25 cm",
+    "forSale": false
   }
 ]
