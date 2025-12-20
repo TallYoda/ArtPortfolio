@@ -5,9 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prebuild": "node scripts/sync-images.mjs && node scripts/normalize-artworks.mjs",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "sync-images": "node scripts/sync-images.mjs",
+    "normalize-artworks": "node scripts/normalize-artworks.mjs"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
