@@ -1,7 +1,6 @@
 // src/components/About.tsx
 import React from "react";
 import "./about.css";
-import portraitSrc from "../assets/img/portrait.webp";
 
 
 const About: React.FC = () => {
@@ -12,7 +11,7 @@ const About: React.FC = () => {
         <div className="row gy-4 justify-content-center align-items-start">
           <div className="col-lg-4">
             <img
-              src={portraitSrc}
+              src="/images/portrait.webp"
               className="img-fluid rounded"
               alt="Mikiyas Sintayehu"
             />
