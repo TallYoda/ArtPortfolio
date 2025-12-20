@@ -4,14 +4,15 @@ import type { Artwork } from "./PortfolioGrid";
 interface Props {
   artwork: Artwork;
   onOpen: () => void;
+  imageSrc?: string;
 }
 
-const PortfolioCard: React.FC<Props> = ({ artwork, onOpen }) => {
+const PortfolioCard: React.FC<Props> = ({ artwork, onOpen, imageSrc }) => {
   return (
     <div className="col-lg-4 col-md-6 portfolio-item">
       <div className="card border-0 shadow-sm mb-4">
         <img
-          src={artwork.image}
+          src={imageSrc ?? artwork.image}
           alt={artwork.title}
           className="card-img-top"
           style={{ objectFit: "cover", height: "300px", cursor: "pointer" }}

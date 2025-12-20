@@ -24,16 +24,19 @@ const Hero: React.FC = () => {
       }}
     >
       <div className="hero-content" aria-hidden={scrolled}>
-        <h1 className="display-4 fw-bold">Welcome to My Portfolio</h1>
-        <p className="lead">Artworks, murals, and visual explorations</p>
+       {/*<h1 className="display-4 fw-bold">Welcome to My Portfolio</h1>*/}
+        <p className="display-4 fw-bold">Artworks, Murals, and Visual Explorations</p>
 
         <blockquote className="hero-quote">
-          "Try to forget what objects you have before you—a tree, a house, a
-          field, or whatever. Merely think, here is a little square of blue,
-          here an oblong of pink, here a streak of yellow, and paint it just as
-          it looks to you."
+          "For, while the tale of how we suffer, and how we are delighted, and how we may triumph is never new, 
+          it always must be heard. There isn't any other tale to tell, it's the only light we've got in all this darkness. 
+          And this light, this revelation, this fire, will not be real for you until it burns you, and you are alone in the darkness. 
+          And this is true for everyone. We are alone in the darkness. And then we are not alone. And that is why we must love and support 
+          and be tender with one another—not because we are alike, but because we are not. The danger, in the case of most of us, is not 
+          that we will see the other person and attack him, but that we will fail to see him at all. For community, real community, is not built 
+          on the false ground of sameness, but on the terrifying and essential ground of our shared, fragile humanity."
           <br />
-          <span className="hero-quote-author">— Claude Monet</span>
+          <span className="hero-quote-author">— James Baldwin, from a 1960 address titled "The New Lost Generation," later published in Esquire (July 1961)</span>
         </blockquote>
       </div>
     </section>

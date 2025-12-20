@@ -1,8 +1,9 @@
-import React from "react";
+// React import not required with the new JSX transform
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import PortfolioGrid from "./components/PortfolioGrid";
 import About from "./components/about";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <PortfolioGrid />
       <About />
+      <Contact />
     </>
   );
 }

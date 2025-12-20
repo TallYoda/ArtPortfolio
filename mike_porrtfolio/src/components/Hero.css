@@ -57,6 +57,8 @@
   font-weight: 700; /* Bold */
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  transform: translateY(-6vh);
+  transition: transform 0.35s ease;
 }
 .hero-content {
   position: relative;
@@ -66,6 +68,11 @@
   margin: 0 auto;
   color: #ffffff !important;
   transition: opacity 0.35s ease, transform 0.35s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 62px);
 }
 
 /* Full-section frosted overlay behind the content (subtle, weak blur) */
@@ -96,7 +103,7 @@
 /* Quote styling */
 .hero-quote {
   max-width: 1100px;
-  margin: 2rem auto 0 auto;
+  margin: 0 auto;
   font-family: "Inconsolata", monospace;
   font-size: 1.1rem;
   line-height: 1.8;
@@ -108,6 +115,14 @@
   position: relative;
   z-index: 1;
   transition: opacity 0.4s ease;
+  transform: translateY(6vh);
+}
+
+/* Slightly lift the title/lead so they sit higher than the centered quote */
+.hero-content p.lead {
+  transform: translateY(-5vh);
+  transition: transform 0.35s ease;
+  margin-top: 0.5rem;
 }
 
 /* Keep quote visible on hover (previously hidden) */

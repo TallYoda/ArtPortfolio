@@ -9,6 +9,7 @@ interface Props {
   onClose: () => void;
   onNext: () => void;
   onPrev: () => void;
+  imageSrc?: string;
 }
 
 const Lightbox: React.FC<Props> = ({
@@ -17,6 +18,7 @@ const Lightbox: React.FC<Props> = ({
   onClose,
   onNext,
   onPrev,
+  imageSrc,
 }) => {
   const artwork = artworks[currentIndex];
 
@@ -37,7 +39,7 @@ const Lightbox: React.FC<Props> = ({
     <div className="lightbox-backdrop" onClick={onClose}>
       <div className="lightbox-content" onClick={(e) => e.stopPropagation()}>
         {/* Image */}
-        <img src={artwork.image} alt={artwork.title} />
+        <img src={imageSrc ?? artwork.image} alt={artwork.title} />
 
         {/* Details */}
         <div className="lightbox-info">

@@ -1,4 +1,138 @@
-[
+[ {
+    "title": "Parachutes",
+    "slug": "parachutes",
+    "image": "/assets/img/portfolio/parachutes.jpg",
+    "medium": "Acrylic on canvas",
+    "year": "2025",
+    "size": "220 x 300 cm",
+    "forSale": false
+  },
+  {
+    "title": "Palm Reader",
+    "slug": "palm-reader",
+    "image": "/assets/img/portfolio/Puppies.webp",
+    "medium": "Acrylic on canvas",
+    "year": "2024",
+    "size": "150 x 150 cm",
+    "forSale": true
+  },
+  {
+    "title": "Zero Sarcasm",
+    "slug": "zero-sarcasm",
+    "image": "/assets/img/portfolio/sarcasm.jpg",
+    "medium": "Acrylic on canvas",
+    "year": "2024",
+    "size": "150 x 150 cm",
+    "forSale": true
+  },
+  {
+    "title": "I'm Not a Cat Person 02",
+    "slug": "im-not-a-cat-person-02",
+    "image": "/assets/img/portfolio/notacatperson.webp",
+    "medium": "Acrylic on canvas",
+    "year": "2025",
+    "size": "55 x 30 cm",
+    "forSale": false
+  },
+  {
+    "title": "Self Portrait",
+    "slug": "self-portrait",
+    "image": "/assets/img/portfolio/selfportrait.jpg",
+    "medium": "Acrylic on canvas",
+    "year": "2025",
+    "size": "70 x 90 cm",
+    "forSale": true
+  },
+  {
+    "title": "Three Little Birds",
+    "slug": "three-little-birds",
+    "image": "/assets/img/portfolio/mural.jpg",
+    "medium": "Mural",
+    "year": "2025",
+    "size": "400 x 400 cm",
+    "forSale": false
+  },
+  {
+    "title": "Tree of Wisdom",
+    "slug": "tree-of-wisdom",
+    "image": "/assets/img/portfolio/paradise.jpg",
+    "medium": "Acrylic on canvas",
+    "year": "2024",
+    "size": "180 x 165 cm",
+    "forSale": false
+  },
+  {
+    "title": "Love Locs",
+    "slug": "love-locs",
+    "image": "/assets/img/portfolio/luvlocs.webp",
+    "medium": "Acrylic on canvas",
+    "year": "2025",
+    "size": "54 x 50 cm",
+    "forSale": false
+  },
+  {
+    "title": "Selfie 05",
+    "slug": "selfie-05",
+    "image": "/assets/img/portfolio/selfie05.jpg",
+    "medium": "Acrylic on canvas",
+    "year": "2025",
+    "size": "150 x 150 cm",
+    "forSale": false
+  },
+  {
+    "title": "Untitled",
+    "slug": "untitled-150x150",
+    "image": "/assets/img/portfolio/untitled.webp",
+    "medium": "Acrylic on canvas",
+    "year": "2025",
+    "size": "150 x 150 cm",
+    "forSale": false
+  },
+  {
+    "title": "I'm Not a Cat Person",
+    "slug": "im-not-a-cat-person",
+    "image": "/images/not_a_cat.jpg",
+    "medium": "Acrylic on canvas",
+    "year": "2025",
+    "size": "50 x 54 cm",
+    "forSale": false
+  },
+  {
+    "title": "Litter Box",
+    "slug": "litter-box",
+    "image": "/assets/img/portfolio/litterbox.webp",
+    "medium": "Acrylic on canvas",
+    "year": "2025",
+    "size": "25 x 25 cm",
+    "forSale": false
+  },
+  {
+    "title": "Swallowed Pride",
+    "slug": "swallowed-pride",
+    "image": "/assets/img/portfolio/gay.JPG",
+    "medium": "Acrylic on canvas",
+    "year": "2024",
+    "size": "70 x 90 cm",
+    "forSale": false
+  },
+  {
+    "title": "The Fall",
+    "slug": "the-fall",
+    "image": "/assets/img/portfolio/thefall.webp",
+    "medium": "Acrylic on canvas",
+    "year": "2025",
+    "size": "70 x 90 cm",
+    "forSale": false
+  },
+  {
+    "title": "Olympiya",
+    "slug": "olympiya",
+    "image": "/images/olympia.webp",
+    "medium": "Acrylic on canvas",
+    "year": "2025",
+    "size": "45 x 45 cm",
+    "forSale": false
+  },
   {
     "title": "adam",
     "slug": "adam",
@@ -6,15 +140,6 @@
     "medium": "Acrylic on canvas",
     "year": "2024",
     "size": "150 × 150 cm",
-    "forSale": false
-  },
-  {
-    "title": "Paradise",
-    "slug": "paradise",
-    "image": "/assets/img/portfolio/paradise.jpg",
-    "medium": "Acrylic on canvas",
-    "year": "2024",
-    "size": "120 × 100 cm",
     "forSale": false
   },
   {
@@ -35,15 +160,7 @@
     "size": "150 × 150 cm",
     "forSale": false
   },
-  {
-    "title": "Selfie 04",
-    "slug": "selfie-04",
-    "image": "/assets/img/portfolio/rena.jpg",
-    "medium": "Acrylic on canvas",
-    "year": "2024",
-    "size": "70 × 90 cm",
-    "forSale": false
-  },
+
   {
     "title": "My Refuge",
     "slug": "my-refuge",
@@ -74,7 +191,7 @@
   {
     "title": "Empty Hands",
     "slug": "empty-hands",
-    "image": "/assets/img/portfolio/swoosh.jpg",
+    "image": "/assets/img/portfolio/Swoosh.jpg",
     "medium": "Acrylic on canvas",
     "year": "2024",
     "size": "180 × 165 cm",
@@ -87,15 +204,6 @@
     "medium": "Acrylic on canvas",
     "year": "2024",
     "size": "180 × 165 cm",
-    "forSale": false
-  },
-  {
-    "title": "Swallowed Pride",
-    "slug": "swallowed-pride",
-    "image": "/assets/img/portfolio/gay.jpg",
-    "medium": "Acrylic on canvas",
-    "year": "2024",
-    "size": "70 × 90 cm",
     "forSale": false
   },
   {
@@ -128,7 +236,7 @@
   {
     "title": "The Heart Eater",
     "slug": "the-heart-eater",
-    "image": "/assets/img/portfolio/heart.jpg",
+    "image": "/assets/img/portfolio/heart.JPG",
     "medium": "Acrylic on canvas",
     "year": "2024",
     "size": "70 × 90 cm",
@@ -137,7 +245,7 @@
   {
     "title": "Solitude Socks",
     "slug": "solitude-socks",
-    "image": "/assets/img/portfolio/socks.jpg",
+    "image": "/assets/img/portfolio/socks.JPG",
     "medium": "Acrylic on canvas",
     "year": "2024",
     "size": "25 × 25 cm",
@@ -146,7 +254,7 @@
   {
     "title": "Solitude Shoes",
     "slug": "solitude-shoes",
-    "image": "/assets/img/portfolio/shoes.jpg",
+    "image": "/assets/img/portfolio/shoes.JPG",
     "medium": "Acrylic on canvas",
     "year": "2024",
     "size": "70 × 90 cm",
