@@ -1,6 +1,6 @@
 // src/components/Lightbox.tsx
 import React, { useEffect } from "react";
-import "./lightbox.css";
+import "./Lightbox.css";
 import type { Artwork } from "./PortfolioGrid";
 
 interface Props {
