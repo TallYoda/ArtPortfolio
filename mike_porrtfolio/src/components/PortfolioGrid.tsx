@@ -11,6 +11,7 @@ export interface Artwork {
   year: string;
   size: string;
   forSale: boolean;
+  thumbnail?: string;
 }
 
 type Filter = "all" | "forSale";
@@ -45,7 +46,8 @@ const PortfolioGrid: React.FC = () => {
     setActiveIndex((prev) => {
       if (prev === null) return null;
       const nextIndex = (prev + 1) % artworks.length;
-      console.log(`Next index: ${nextIndex}`);
+      console.log(
+ext index: ${nextIndex}`);
       return nextIndex;
     });
   };
@@ -86,13 +88,15 @@ const PortfolioGrid: React.FC = () => {
             filter === "all" ? artworks : artworks.filter((a) => a.forSale)
           ).map((artwork) => {
             const originalIndex = artworks.findIndex((a) => a.slug === artwork.slug);
-            const filename = artwork.image.split("/").pop() || "";
-            const imageSrc = artwork.image.startsWith("/images/") ? artwork.image : `/images/${filename}`;
+            // Use thumbnail for grid cards (smaller, faster loading)
+            const thumbnailSrc = artwork.thumbnail 
+              ? (artwork.thumbnail.startsWith("/images/") ? artwork.thumbnail : `/images/${artwork.thumbnail.split("/").pop()}`)
+              : undefined;
             return (
               <PortfolioCard
                 key={artwork.slug}
                 artwork={artwork}
-                imageSrc={imageSrc}
+                imageSrc={thumbnailSrc}
                 onOpen={() => openLightbox(originalIndex)}
               />
             );
@@ -124,3 +128,4 @@ const PortfolioGrid: React.FC = () => {
 };
 
 export default PortfolioGrid;
+

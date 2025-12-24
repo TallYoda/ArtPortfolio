@@ -14,7 +14,7 @@ const PortfolioCard: React.FC<Props> = ({ artwork, onOpen, imageSrc }) => {
         <img
           src={imageSrc ?? artwork.thumbnail}
           alt={artwork.title}
-          className="card-img-top"
+          className="card-img-top"`n          loading="lazy"
           style={{ objectFit: "cover", height: "300px", cursor: "pointer" }}
           onClick={() => {
             console.log(`PortfolioCard clicked: ${artwork.title}`);
