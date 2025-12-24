@@ -34,8 +34,9 @@
   right: 0;
   bottom: 0;
   background: url("/img/hero-bg.jpg") center center / cover no-repeat;
-  filter: blur(3px) brightness(0.6);
-  z-index: -1;
+  /* Remove pre-blur so backdrop-filter can operate on the real backdrop */
+  filter: brightness(0.6);
+  z-index: 0;
   transition: filter 0.4s ease;
 }
 
@@ -80,8 +81,9 @@
   content: "";
   position: absolute;
   inset: 0;
-  z-index: 0;
-  background: rgba(255, 255, 255, 0.02);
+  /* Place overlay above the background but beneath content */
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.04);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   transition: opacity 0.35s ease, backdrop-filter 0.35s ease, transform 0.35s ease;
