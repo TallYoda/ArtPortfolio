@@ -46,8 +46,7 @@ const PortfolioGrid: React.FC = () => {
     setActiveIndex((prev) => {
       if (prev === null) return null;
       const nextIndex = (prev + 1) % artworks.length;
-      console.log(
-ext index: ${nextIndex}`);
+      console.log(`Next index: ${nextIndex}`);
       return nextIndex;
     });
   };
@@ -128,4 +127,3 @@ ext index: ${nextIndex}`);
 };
 
 export default PortfolioGrid;
-
