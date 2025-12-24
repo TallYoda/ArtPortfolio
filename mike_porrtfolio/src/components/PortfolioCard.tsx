@@ -12,7 +12,7 @@ const PortfolioCard: React.FC<Props> = ({ artwork, onOpen, imageSrc }) => {
     <div className="col-lg-4 col-md-6 portfolio-item">
       <div className="card border-0 shadow-sm mb-4">
         <img
-          src={imageSrc ?? artwork.image}
+          src={imageSrc ?? artwork.thumbnail}
           alt={artwork.title}
           className="card-img-top"
           style={{ objectFit: "cover", height: "300px", cursor: "pointer" }}

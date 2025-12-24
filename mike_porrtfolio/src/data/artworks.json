@@ -6,7 +6,8 @@
     "medium": "Acrylic on canvas",
     "year": "2025",
     "size": "220 x 300 cm",
-    "forSale": false
+    "forSale": false,
+    "thumbnail": "/images/parachutes-thumb.webp"
   },
   {
     "title": "Palm Reader",
@@ -15,7 +16,8 @@
     "medium": "Acrylic on canvas",
     "year": "2024",
     "size": "150 x 150 cm",
-    "forSale": true
+    "forSale": true,
+    "thumbnail": "/images/Puppies-thumb.webp"
   },
   {
     "title": "Zero Sarcasm",
@@ -24,7 +26,8 @@
     "medium": "Acrylic on canvas",
     "year": "2024",
     "size": "150 x 150 cm",
-    "forSale": true
+    "forSale": true,
+    "thumbnail": "/images/sarcasm-thumb.webp"
   },
   {
     "title": "I'm Not a Cat Person 02",
@@ -33,7 +36,8 @@
     "medium": "Acrylic on canvas",
     "year": "2025",
     "size": "55 x 30 cm",
-    "forSale": false
+    "forSale": false,
+    "thumbnail": "/images/notacatperson-thumb.webp"
   },
   {
     "title": "Self Portrait",
@@ -42,7 +46,8 @@
     "medium": "Acrylic on canvas",
     "year": "2025",
     "size": "70 x 90 cm",
-    "forSale": true
+    "forSale": true,
+    "thumbnail": "/images/selfportrait-thumb.webp"
   },
   {
     "title": "Three Little Birds",
@@ -51,7 +56,8 @@
     "medium": "Mural",
     "year": "2025",
     "size": "400 x 400 cm",
-    "forSale": false
+    "forSale": false,
+    "thumbnail": "/images/mural-thumb.webp"
   },
   {
     "title": "Tree of Wisdom",
@@ -60,7 +66,8 @@
     "medium": "Acrylic on canvas",
     "year": "2024",
     "size": "180 x 165 cm",
-    "forSale": false
+    "forSale": false,
+    "thumbnail": "/images/paradise-thumb.webp"
   },
   {
     "title": "Love Locs",
@@ -69,7 +76,8 @@
     "medium": "Acrylic on canvas",
     "year": "2025",
     "size": "54 x 50 cm",
-    "forSale": false
+    "forSale": false,
+    "thumbnail": "/images/luvlocs-thumb.webp"
   },
   {
     "title": "Selfie 05",
@@ -78,7 +86,8 @@
     "medium": "Acrylic on canvas",
     "year": "2025",
     "size": "150 x 150 cm",
-    "forSale": false
+    "forSale": false,
+    "thumbnail": "/images/selfie05-thumb.webp"
   },
   {
     "title": "Untitled",
@@ -87,7 +96,8 @@
     "medium": "Acrylic on canvas",
     "year": "2025",
     "size": "150 x 150 cm",
-    "forSale": false
+    "forSale": false,
+    "thumbnail": "/images/untitled-thumb.webp"
   },
   {
     "title": "I'm Not a Cat Person",
@@ -96,7 +106,8 @@
     "medium": "Acrylic on canvas",
     "year": "2025",
     "size": "50 x 54 cm",
-    "forSale": false
+    "forSale": false,
+    "thumbnail": "/images/not_a_cat-thumb.webp"
   },
   {
     "title": "Litter Box",
@@ -105,7 +116,8 @@
     "medium": "Acrylic on canvas",
     "year": "2025",
     "size": "25 x 25 cm",
-    "forSale": false
+    "forSale": false,
+    "thumbnail": "/images/litterbox-thumb.webp"
   },
   {
     "title": "Swallowed Pride",
@@ -114,7 +126,8 @@
     "medium": "Acrylic on canvas",
     "year": "2024",
     "size": "70 x 90 cm",
-    "forSale": false
+    "forSale": false,
+    "thumbnail": "/images/gay-thumb.webp"
   },
   {
     "title": "The Fall",
@@ -123,7 +136,8 @@
     "medium": "Acrylic on canvas",
     "year": "2025",
     "size": "70 x 90 cm",
-    "forSale": false
+    "forSale": false,
+    "thumbnail": "/images/thefall-thumb.webp"
   },
   {
     "title": "Olympiya",
@@ -132,7 +146,8 @@
     "medium": "Acrylic on canvas",
     "year": "2025",
     "size": "45 x 45 cm",
-    "forSale": false
+    "forSale": false,
+    "thumbnail": "/images/olympia-thumb.webp"
   },
   {
     "title": "adam",
@@ -141,7 +156,8 @@
     "medium": "Acrylic on canvas",
     "year": "2024",
     "size": "150 × 150 cm",
-    "forSale": false
+    "forSale": false,
+    "thumbnail": "/images/adam-thumb.webp"
   },
   {
     "title": "Selfie 02",
@@ -150,7 +166,8 @@
     "medium": "Acrylic on canvas",
     "year": "2024",
     "size": "150 × 150 cm",
-    "forSale": false
+    "forSale": false,
+    "thumbnail": "/images/Selfie02-thumb.webp"
   },
   {
     "title": "Zero Sarcasm",
@@ -159,7 +176,8 @@
     "medium": "Acrylic on canvas",
     "year": "2024",
     "size": "150 × 150 cm",
-    "forSale": false
+    "forSale": false,
+    "thumbnail": "/images/sarcasm-thumb.webp"
   },
   {
     "title": "My Refuge",
@@ -168,7 +186,8 @@
     "medium": "Acrylic on canvas",
     "year": "2024",
     "size": "140 × 140 cm",
-    "forSale": false
+    "forSale": false,
+    "thumbnail": "/images/refuge-thumb.webp"
   },
   {
     "title": "Fruit of Wisdom",
@@ -177,7 +196,8 @@
     "medium": "Acrylic on canvas",
     "year": "2024",
     "size": "180 × 165 cm",
-    "forSale": false
+    "forSale": false,
+    "thumbnail": "/images/fruity-thumb.webp"
   },
   {
     "title": "Sadness and Sorrow",
@@ -186,7 +206,8 @@
     "medium": "Acrylic on canvas",
     "year": "2024",
     "size": "180 × 165 cm",
-    "forSale": false
+    "forSale": false,
+    "thumbnail": "/images/desire-thumb.webp"
   },
   {
     "title": "Empty Hands",
@@ -195,7 +216,8 @@
     "medium": "Acrylic on canvas",
     "year": "2024",
     "size": "180 × 165 cm",
-    "forSale": false
+    "forSale": false,
+    "thumbnail": "/images/Swoosh-thumb.webp"
   },
   {
     "title": "Tree of Wisdom",
@@ -204,7 +226,8 @@
     "medium": "Acrylic on canvas",
     "year": "2024",
     "size": "180 × 165 cm",
-    "forSale": false
+    "forSale": false,
+    "thumbnail": "/images/paradise-thumb.webp"
   },
   {
     "title": "Floating Souls",
@@ -213,7 +236,8 @@
     "medium": "Acrylic on canvas",
     "year": "2024",
     "size": "180 × 165 cm",
-    "forSale": false
+    "forSale": false,
+    "thumbnail": "/images/floating-thumb.webp"
   },
   {
     "title": "Modern Adam",
@@ -222,7 +246,8 @@
     "medium": "Acrylic on canvas",
     "year": "2024",
     "size": "140 × 180 cm",
-    "forSale": false
+    "forSale": false,
+    "thumbnail": "/images/adam-thumb.webp"
   },
   {
     "title": "The Ashtray",
@@ -231,7 +256,8 @@
     "medium": "Acrylic on canvas",
     "year": "2024",
     "size": "25 × 25 cm",
-    "forSale": false
+    "forSale": false,
+    "thumbnail": "/images/ash-thumb.webp"
   },
   {
     "title": "The Heart Eater",
@@ -240,7 +266,8 @@
     "medium": "Acrylic on canvas",
     "year": "2024",
     "size": "70 × 90 cm",
-    "forSale": false
+    "forSale": false,
+    "thumbnail": "/images/heart-thumb.webp"
   },
   {
     "title": "Solitude Socks",
@@ -249,7 +276,8 @@
     "medium": "Acrylic on canvas",
     "year": "2024",
     "size": "25 × 25 cm",
-    "forSale": false
+    "forSale": false,
+    "thumbnail": "/images/socks-thumb.webp"
   },
   {
     "title": "Solitude Shoes",
@@ -258,7 +286,8 @@
     "medium": "Acrylic on canvas",
     "year": "2024",
     "size": "70 × 90 cm",
-    "forSale": false
+    "forSale": false,
+    "thumbnail": "/images/shoes-thumb.webp"
   },
   {
     "title": "Untitled",
@@ -267,7 +296,8 @@
     "medium": "Acrylic on canvas",
     "year": "2024",
     "size": "25 × 25 cm",
-    "forSale": false
+    "forSale": false,
+    "thumbnail": "/images/u1-thumb.webp"
   },
   {
     "title": "Untitled",
@@ -276,7 +306,8 @@
     "medium": "Acrylic on canvas",
     "year": "2024",
     "size": "25 × 25 cm",
-    "forSale": false
+    "forSale": false,
+    "thumbnail": "/images/u2-thumb.webp"
   },
   {
     "title": "Untitled",
@@ -285,6 +316,7 @@
     "medium": "Acrylic on canvas",
     "year": "2024",
     "size": "25 × 25 cm",
-    "forSale": false
+    "forSale": false,
+    "thumbnail": "/images/u3-thumb.webp"
   }
 ]
