@@ -1,4 +1,5 @@
 // React import not required with the new JSX transform
+import { Analytics } from "@vercel/analytics/react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import PortfolioGrid from "./components/PortfolioGrid";
@@ -13,6 +14,7 @@ function App() {
       <PortfolioGrid />
       <About />
       <Contact />
+      <Analytics />
     </>
   );
 }
