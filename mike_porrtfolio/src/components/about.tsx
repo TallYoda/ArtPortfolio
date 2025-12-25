@@ -21,10 +21,8 @@ const About: React.FC = () => {
             <h2>Mikiyas Sintayehu, Visual Artist.</h2>
 
             <p className="fst-italic py-3">
-              My work is about capturing the diverse range of emotions that people
-              experience when they interact with themselves through the objects
-              they hold in their hands. I aim to question the meaning behind these
-              actions and explore the deeper significance they hold in our lives.
+            My work is rooted in the careful observation of private, everyday moments. Through these scenes, 
+            I explore how emotion circulates between people, and how community—often understated and fragile—remains central to how we experience ourselves and others.
             </p>
 
             <div className="row">
@@ -195,9 +193,9 @@ const About: React.FC = () => {
         <div className="section-title mt-5">
           <h2>Artist Statement</h2>
           <p>
-            My inspiration often begins with ordinary moments—friends gathered
-            in my studio or someone lost in their phone. These scenes compel me
-            to capture and translate them onto canvas.
+          My work begins with a desire to share moments from my private life without reducing them to anecdote or spectacle. I paint gatherings of friends, 
+          quiet pauses, and distracted presences as a way of constantly affirming the necessity of community—its fragility, its endurance, and its role in shaping who we become.
+           
           </p>
           <p>
             Working through an Impressionist approach, I focus on light,
