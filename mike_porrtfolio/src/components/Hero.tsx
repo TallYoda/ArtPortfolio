@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
   useEffect(() => {
     const onScroll = () => {
       // Hide as soon as the user scrolls down a few pixels
-      setScrolled(window.scrollY > 5);
+      setScrolled(window.scrollY > 7);
     };
 
     window.addEventListener("scroll", onScroll, { passive: true });

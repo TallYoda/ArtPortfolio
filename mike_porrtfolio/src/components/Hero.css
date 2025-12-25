@@ -10,7 +10,6 @@
 
 .hero-section {
   position: relative;
-  isolation: isolate; /* ✅ critical for backdrop-filter in production */
   width: 100%;
   height: 100vh;
   display: flex;
@@ -31,25 +30,16 @@
   position: absolute;
   inset: 0;
   background: url("/img/hero-bg.jpg") center center / cover no-repeat;
-  filter: brightness(0.6);
   z-index: 0;
-  transition: filter 0.4s ease;
 }
 
-/* Hover effect */
-.hero-section:hover::before {
-  filter: brightness(0.8);
-}
-
-/* Full-section frosted overlay (THIS is the blur layer) */
+/* Dark overlay for visibility */
 .hero-section::after {
   content: "";
   position: absolute;
   inset: 0;
   z-index: 1;
-  background: rgba(255, 255, 255, 0.12); /* ✅ not too subtle for prod */
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
+  background: rgba(0, 0, 0, 0.4);
   transition: opacity 0.35s ease, transform 0.35s ease;
   pointer-events: none;
 }
@@ -116,10 +106,6 @@
   margin-top: 0.5rem;
 }
 
-/* Keep quote visible on hover */
-.hero-section:hover .hero-quote {
-  opacity: 1;
-}
 
 .hero-quote-author {
   display: block;
