@@ -148,11 +148,11 @@ const About: React.FC = () => {
             <h3 className="resume-title">Group Exhibitions</h3>
 
             {[
-              ["Cube", "2023", "Embassy of Brazil Residence"],
-              ["Impression of Time", "2023", "Alliance Ethio-Française Gallery"],
-              ["Faces", "2021", "Hyatt Regency Hotel"],
+              ["Graduation Exhibition", "2018", "Entoto Polytechnic College"],
               ["The Tales of Rodari", "2020", "AAU Gallery"],
-              ["Graduation Exhibition", "2018", "Entoto Polytechnic College"]
+              ["Faces", "2021", "Hyatt Regency Hotel"],
+              ["Impression of Time", "2023", "Alliance Ethio-Française Gallery"],
+              ["Cube", "2023", "Embassy of Brazil Residence"]
             ].map(([title, year, venue]) => (
               <div className="resume-item" key={title}>
                 <h4>{title}</h4>
