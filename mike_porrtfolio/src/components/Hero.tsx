@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
   useEffect(() => {
     const onScroll = () => {
       // Hide as soon as the user scrolls down a few pixels
-      setScrolled(window.scrollY > 10);
+      setScrolled(window.scrollY > 5);
     };
 
     window.addEventListener("scroll", onScroll, { passive: true });
@@ -28,10 +28,7 @@ const Hero: React.FC = () => {
         <p className="display-4 fw-bold">Artworks, Murals, and Visual Explorations</p>
 
         <blockquote className="hero-quote">
-          "For, while the tale of how we suffer, and how we are delighted, and how we may triumph is never new, 
-          it always must be heard. There isn't any other tale to tell, it's the only light we've got in all this darkness. 
-          And this light, this revelation, this fire, will not be real for you until it burns you, and you are alone in the darkness. 
-          And this is true for everyone. We are alone in the darkness. And then we are not alone. And that is why we must love and support 
+          "We are alone in the darkness. And then we are not alone. And that is why we must love and support 
           and be tender with one another—not because we are alike, but because we are not. The danger, in the case of most of us, is not 
           that we will see the other person and attack him, but that we will fail to see him at all. For community, real community, is not built 
           on the false ground of sameness, but on the terrifying and essential ground of our shared, fragile humanity."
