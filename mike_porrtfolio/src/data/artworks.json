@@ -170,16 +170,6 @@
     "thumbnail": "/images/Selfie02-thumb.webp"
   },
   {
-    "title": "Zero Sarcasm",
-    "slug": "zero-sarcasm",
-    "image": "/images/sarcasm.jpg",
-    "medium": "Acrylic on canvas",
-    "year": "2024",
-    "size": "150 × 150 cm",
-    "forSale": false,
-    "thumbnail": "/images/sarcasm-thumb.webp"
-  },
-  {
     "title": "My Refuge",
     "slug": "my-refuge",
     "image": "/images/refuge.jpg",
@@ -218,16 +208,6 @@
     "size": "180 × 165 cm",
     "forSale": false,
     "thumbnail": "/images/Swoosh-thumb.webp"
-  },
-  {
-    "title": "Tree of Wisdom",
-    "slug": "tree-of-wisdom",
-    "image": "/images/paradise.jpg",
-    "medium": "Acrylic on canvas",
-    "year": "2024",
-    "size": "180 × 165 cm",
-    "forSale": false,
-    "thumbnail": "/images/paradise-thumb.webp"
   },
   {
     "title": "Floating Souls",
