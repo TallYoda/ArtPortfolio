@@ -1,13 +1,23 @@
 [
   {
-    "title": "Parachutes",
+    "title": "The Late Night Show",
     "slug": "parachutes",
     "image": "/images/parachutes.jpg",
     "medium": "Acrylic on canvas",
     "year": "2025",
-    "size": "220 x 300 cm",
+    "size": "215.5 x 300 cm",
     "forSale": false,
     "thumbnail": "/images/parachutes-thumb.webp"
+  },
+  {
+    "title": "Ego Death",
+    "slug": "ego-death",
+    "image": "/images/ego-death.jpg",
+    "medium": "Acrylic on canvas",
+    "year": "2026",
+    "size": "150 x 150 cm",
+    "forSale": true,
+    "thumbnail": "/images/ego-death-thumb.webp"
   },
   {
     "title": "Palm Reader",
@@ -16,8 +26,28 @@
     "medium": "Acrylic on canvas",
     "year": "2024",
     "size": "150 x 150 cm",
-    "forSale": true,
+    "forSale": false,
     "thumbnail": "/images/Puppies-thumb.webp"
+  },
+  {
+    "title": "Now and Then",
+    "slug": "now-and-then",
+    "image": "/images/now-and-then.jpg",
+    "medium": "Acrylic on canvas",
+    "year": "2026",
+    "size": "160 x 180 cm",
+    "forSale": true,
+    "thumbnail": "/images/now-and-then-thumb.webp"
+  },
+  {
+    "title": "Potato Eaters",
+    "slug": "potato-eaters",
+    "image": "/images/potato-eaters.jpg",
+    "medium": "Acrylic on canvas",
+    "year": "2026",
+    "size": "140 x 180 cm",
+    "forSale": false,
+    "thumbnail": "/images/potato-eaters-thumb.webp"
   },
   {
     "title": "Zero Sarcasm",
@@ -146,7 +176,7 @@
     "medium": "Acrylic on canvas",
     "year": "2025",
     "size": "45 x 45 cm",
-    "forSale": false,
+    "forSale": true,
     "thumbnail": "/images/olympia-thumb.webp"
   },
   {
@@ -156,7 +186,7 @@
     "medium": "Acrylic on canvas",
     "year": "2024",
     "size": "150 × 150 cm",
-    "forSale": false,
+    "forSale": true,
     "thumbnail": "/images/adam-thumb.webp"
   },
   {
@@ -218,16 +248,6 @@
     "size": "180 × 165 cm",
     "forSale": false,
     "thumbnail": "/images/floating-thumb.webp"
-  },
-  {
-    "title": "Modern Adam",
-    "slug": "modern-adam",
-    "image": "/images/adam.jpg",
-    "medium": "Acrylic on canvas",
-    "year": "2024",
-    "size": "140 × 180 cm",
-    "forSale": false,
-    "thumbnail": "/images/adam-thumb.webp"
   },
   {
     "title": "The Ashtray",

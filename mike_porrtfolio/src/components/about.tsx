@@ -188,26 +188,6 @@ const About: React.FC = () => {
             </div>
           </div>
         </div>
-
-        {/* Artist Statement */}
-        <div className="section-title mt-5">
-          <h2>Artist Statement</h2>
-          <p>
-          My work begins with a desire to share moments from my private life without reducing them to anecdote or spectacle. I paint gatherings of friends, 
-          quiet pauses, and distracted presences as a way of constantly affirming the necessity of community—its fragility, its endurance, and its role in shaping who we become.
-           
-          </p>
-          <p>
-            Working through an Impressionist approach, I focus on light,
-            atmosphere, and perspective, with human figures at the center of my
-            compositions.
-          </p>
-          <p>
-            By sharing my lived experiences honestly, my work becomes inherently
-            political—reflecting collective struggles, aspirations, and the
-            emotional texture of contemporary life.
-          </p>
-        </div>
       </div>
     </section>
   );
