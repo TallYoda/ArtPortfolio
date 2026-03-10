@@ -89,6 +89,23 @@ const About: React.FC = () => {
           </p>
         </div>
 
+        {/* Artist Statement */}
+        <div className="section-title mt-5">
+          <h2>Artist Statement</h2>
+          <p>
+            My work begins with moments that feel very present to me. I take photographs of scenes around me, most often gatherings of friends in my studio. These photographs become the starting point for the paintings.
+          </p>
+          <p>
+            I return to the same setting again and again. The studio appears in many of the works. By limiting the space, I can focus on how the feeling inside it changes from day to day. The room stays the same, but the energy is always different. Conversations, moods, and the way people sit together all shift. Over time the studio becomes a place where these small changes in presence can be observed.
+          </p>
+          <p>
+            After choosing a photograph, I begin the process of transferring it to canvas. At this stage I am not trying to copy the image exactly. Instead I start to work through the emotions and atmosphere that were present in that moment. I use an impressionist approach with loose brushwork, color, and light to bring out the feeling around the scene.
+          </p>
+          <p>
+            Often the theme of the painting becomes clear only when the work is almost finished, and sometimes even after it is done. When I look back at the paintings, I see that many of them revolve around friendship, community, and the different ways people share space with each other. The paintings are about these moments of presence between people.
+          </p>
+        </div>
+
         {/* Resume */}
         <div className="section-title mt-5">
           <h2>Resume</h2>
