@@ -3,6 +3,7 @@ import React, { useState } from "react";
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const dialogueProjectUrl = "http://localhost:3000";
 
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
@@ -39,6 +40,17 @@ const Navbar: React.FC = () => {
             <li className="nav-item">
               <a className="nav-link" href="#portfolio" onClick={closeNavbar}>
                 Portfolio
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className="nav-link"
+                href={dialogueProjectUrl}
+                target="_blank"
+                rel="noreferrer"
+                onClick={closeNavbar}
+              >
+                The Dialogue
               </a>
             </li>
             <li className="nav-item">
