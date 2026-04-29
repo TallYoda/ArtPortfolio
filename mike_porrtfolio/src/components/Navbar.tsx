@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const dialogueProjectUrl = "https://www.mikiyassintayehu.com/theDialogue";
+  const dialogueProjectUrl = "https://the-project-nu.vercel.app/";
 
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
