@@ -21,8 +21,7 @@ const About: React.FC = () => {
             <h2>Mikiyas Sintayehu, Visual Artist.</h2>
 
             <p className="fst-italic py-3">
-            My work is rooted in the careful observation of private, everyday moments. Through these scenes, 
-            I explore how emotion circulates between people, and how community—often understated and fragile—remains central to how we experience ourselves and others.
+            My work is rooted in the home and community that has formed in and around my studio. The paintings are intimate snapshots of the ebb of life in this place—and of the sanctuary a home can hold for the people who gather there.
             </p>
 
             <div className="row">
@@ -84,8 +83,15 @@ const About: React.FC = () => {
             exhibitions across the city.
           </p>
           <p>
-            He is currently a studio artist based in Addis Ababa, exploring the
-            effects of technology on social life and personal space.
+            He lives and works in Addis Ababa, where his studio is both a
+            workplace and a home. His paintings come from the community that has
+            formed there: intimate scenes of people gathering, sitting together,
+            and sharing space as daily life moves through the room. Raised
+            watching his mother keep a sanctuary not only for family but for
+            neighbors and friends, he treats homemaking as the ground of his
+            practice. He is less concerned with becoming a better artist than
+            with becoming a better homemaker, trusting that creation needs
+            safety, and a home at the least.
           </p>
         </div>
 
@@ -93,16 +99,16 @@ const About: React.FC = () => {
         <div className="section-title mt-5">
           <h2>Artist Statement</h2>
           <p>
-            My work begins with moments that feel very present to me. I take photographs of scenes around me, most often gatherings of friends in my studio. These photographs become the starting point for the paintings.
+            My work begins in the home and community that has formed in and around my studio. Most of the paintings are intimate snapshots of the ebb of life here: friends gathering, people sitting together, the room filling and emptying as the day turns. I photograph these scenes, then paint from them. The studio stays the same, but the feeling inside it is always shifting.
           </p>
           <p>
-            I return to the same setting again and again. The studio appears in many of the works. By limiting the space, I can focus on how the feeling inside it changes from day to day. The room stays the same, but the energy is always different. Conversations, moods, and the way people sit together all shift. Over time the studio becomes a place where these small changes in presence can be observed.
+            I return to this setting again and again because it is not only a workplace. It is a home. By staying close to one room, I can watch how presence changes from day to day—conversations, moods, the way people share space. After I choose a photograph, I am not trying to copy it exactly. I work through the atmosphere of that moment with loose brushwork, color, and light, so the painting holds the feeling around the scene as much as the scene itself.
           </p>
           <p>
-            After choosing a photograph, I begin the process of transferring it to canvas. At this stage I am not trying to copy the image exactly. Instead I start to work through the emotions and atmosphere that were present in that moment. I use an impressionist approach with loose brushwork, color, and light to bring out the feeling around the scene.
+            I learned what a home can be by watching my mother. She was a homemaker not only to our immediate family, but to the people around us. From a young age I saw how the sanctuary she built served many lives. That memory sits under everything I make.
           </p>
           <p>
-            Often the theme of the painting becomes clear only when the work is almost finished, and sometimes even after it is done. When I look back at the paintings, I see that many of them revolve around friendship, community, and the different ways people share space with each other. The paintings are about these moments of presence between people.
+            I try to be a better homemaker more than I try to be a better artist. Creation needs safety, and a home at the least. The paintings grow out of that belief: that a room held with care can become a place where people gather, and that those small, passing moments of being together are worth keeping.
           </p>
         </div>
 
